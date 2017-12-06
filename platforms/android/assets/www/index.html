@@ -1,0 +1,591 @@
+<html>
+<head>
+<script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>
+</head>
+<body>
+<a-scene>
+<a-assets>
+<img id="main"  crossorigin="" src="http://i.imgur.com/4LKsER9.jpg">   
+<img id="DEL"  crossorigin="" src="http://i.imgur.com/g9LpBzm.jpg">
+<img id="MH"  crossorigin="" src="http://i.imgur.com/VNT6EeM.jpg">
+<img id="RAJ"  crossorigin="" src="http://i.imgur.com/nyR43Cz.jpg">
+<img id="UP"  crossorigin="" src="http://i.imgur.com/14PIOgy.jpg">      
+<img id="delhi1"  crossorigin="" src="http://i.imgur.com/IVFrmJU.jpg">
+<img id="delhi2"  crossorigin="" src="http://i.imgur.com/7I7VEim.jpg">
+<img id="delhi3"  crossorigin="" src="http://i.imgur.com/YkJNTID.jpg">
+<img id="delhi4"  crossorigin="" src="http://i.imgur.com/EJbqHVw.jpg">
+<img id="delhi5"  crossorigin="" src="http://i.imgur.com/QD2VdDp.jpg">
+<img id="MH1"  crossorigin="" src="http://i.imgur.com/JPD9DGT.jpg">
+<img id="MH2"  crossorigin="" src="http://i.imgur.com/lb4QngB.jpg">
+<img id="MH3"  crossorigin="" src="http://i.imgur.com/2ReoLMR.jpg">
+<img id="MH4"  crossorigin="" src="http://i.imgur.com/eKsrxg0.jpg">
+<img id="MH5"  crossorigin="" src="http://i.imgur.com/DLpqEKw.jpg">
+<img id="RAJ1"  crossorigin="" src="http://i.imgur.com/C9GUp3T.jpg">
+<img id="RAJ2"  crossorigin="" src="http://i.imgur.com/J5KeNLD.jpg">
+<img id="RAJ3"  crossorigin="" src="http://i.imgur.com/a4g8YYA.jpg">
+<img id="RAJ4"  crossorigin="" src="http://i.imgur.com/vx0rQ2V.jpg">
+<img id="RAJ5"  crossorigin="" src="http://i.imgur.com/5icywfh.jpg">
+<img id="UP1"  crossorigin="" src="http://i.imgur.com/46iDX8K.jpg">
+<img id="UP2"  crossorigin="" src="http://i.imgur.com/r7gfQAD.jpg">
+<img id="UP3"  crossorigin="" src="http://i.imgur.com/QRpZZU3.jpg">
+<img id="UP4"  crossorigin="" src="http://i.imgur.com/ncBQR6z.jpg">
+<img id="nav"  crossorigin="" src="http://i.imgur.com/uBUjocg.png">
+<img id="next"  crossorigin="" src="http://i.imgur.com/drDvNiW.png">
+</a-assets>
+    <a-sky  src="#main" id="background"></a-sky>
+  <a-camera position="0 0 0">
+    <a-cursor color="#2E3A87">
+  </a-camera>
+  <!--delhi tourist-->
+  <a-image color="#FFF" width="5" height="10"
+         position="-120 20 -80" rotation="0 60 0"
+         src="#nav" id="d1b" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="6" height="12"
+         position="100 10 -80" rotation="0 180 0"
+         src="#nav" id="d1n" visible="false">
+  </a-image>
+<a-image color="#FFF" width="5" height="10"
+         position="-50 10 -80" rotation="0 60 0"
+         src="#nav" id="d2b" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="6" height="12"
+         position="60 10 -80" rotation="0 180 0"
+         src="#nav" id="d2n" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="8" height="16"
+         position="-300 20 -80" rotation="0 60 0"
+         src="#nav" id="d3b" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="5" height="10"
+         position="-50 10 -80" rotation="0 200 0"
+         src="#nav" id="d3n" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="5" height="10"
+         position="-100 14 -80" rotation="0 60 0"
+         src="#nav" id="d4b" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="6" height="12"
+         position="-20 10 -80" rotation="0 180 0"
+         src="#nav" id="d4n" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="8" height="16"
+         position="-200 20 -80" rotation="0 60 0"
+         src="#nav" id="d5b" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="6" height="12"
+         position="100 10 -80" rotation="0 180 0"
+         src="#nav" id="d5n" visible="false">
+  </a-image>	 
+  <!--rajasthan tourist-->
+
+  <a-image color="#FFF" width="5" height="10"
+         position="-120 20 -80" rotation="0 60 0"
+         src="#nav" id="r1b" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="6" height="12"
+         position="100 10 -80" rotation="0 180 0"
+         src="#nav" id="r1n" visible="false">
+  </a-image>
+<a-image color="#FFF" width="5" height="10"
+         position="-50 10 -80" rotation="0 60 0"
+         src="#nav" id="r2b" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="6" height="12"
+         position="60 10 -80" rotation="0 180 0"
+         src="#nav" id="r2n" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="8" height="16"
+         position="-300 20 -80" rotation="0 60 0"
+         src="#nav" id="r3b" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="5" height="10"
+         position="-50 10 -80" rotation="0 200 0"
+         src="#nav" id="r3n" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="5" height="10"
+         position="-100 14 -80" rotation="0 60 0"
+         src="#nav" id="r4b" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="6" height="12"
+         position="-20 10 -80" rotation="0 180 0"
+         src="#nav" id="r4n" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="8" height="16"
+         position="-200 20 -80" rotation="0 60 0"
+         src="#nav" id="r5b" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="6" height="12"
+         position="100 10 -80" rotation="0 180 0"
+         src="#nav" id="r5n" visible="false">
+  </a-image>	 
+  <!-- Maharastra tourist -->
+  
+  <a-image color="#FFF" width="5" height="10"
+         position="-120 20 -80" rotation="0 60 0"
+         src="#nav" id="m1b" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="6" height="12"
+         position="100 10 -80" rotation="0 180 0"
+         src="#nav" id="m1n" visible="false">
+  </a-image>
+<a-image color="#FFF" width="5" height="10"
+         position="-50 10 -80" rotation="0 60 0"
+         src="#nav" id="m2b" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="6" height="12"
+         position="60 10 -80" rotation="0 180 0"
+         src="#nav" id="m2n" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="8" height="16"
+         position="-300 20 -80" rotation="0 60 0"
+         src="#nav" id="m3b" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="5" height="10"
+         position="-50 10 -80" rotation="0 200 0"
+         src="#nav" id="m3n" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="5" height="10"
+         position="-100 14 -80" rotation="0 60 0"
+         src="#nav" id="m4b" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="6" height="12"
+         position="-20 10 -80" rotation="0 180 0"
+         src="#nav" id="m4n" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="8" height="16"
+         position="-200 20 -80" rotation="0 60 0"
+         src="#nav" id="m5b" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="6" height="12"
+         position="100 10 -80" rotation="0 180 0"
+         src="#nav" id="m5n" visible="false">
+  </a-image>	 
+  
+  <!-- uttar pradesh tourist-->
+
+<a-image color="#FFF" width="5" height="10"
+         position="-120 20 -80" rotation="0 60 0"
+         src="#nav" id="u1b" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="6" height="12"
+         position="100 10 -80" rotation="0 180 0"
+         src="#nav" id="u1n" visible="false">
+  </a-image>
+<a-image color="#FFF" width="5" height="10"
+         position="-50 10 -80" rotation="0 60 0"
+         src="#nav" id="u2b" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="6" height="12"
+         position="60 10 -80" rotation="0 180 0"
+         src="#nav" id="u2n" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="8" height="16"
+         position="-300 20 -80" rotation="0 60 0"
+         src="#nav" id="u3b" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="5" height="10"
+         position="-50 10 -80" rotation="0 200 0"
+         src="#nav" id="u3n" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="5" height="10"
+         position="-100 14 -80" rotation="0 60 0"
+         src="#nav" id="u4b" visible="false">
+  </a-image>
+  <a-image color="#FFF" width="6" height="12"
+         position="-20 10 -80" rotation="0 180 0"
+         src="#nav" id="u4n" visible="false">
+  </a-image>  
+  
+ <!-- main -->
+<a-box color="#ffffff" src="#DEL" width="2" height="2" depth="2"
+         position="-10 2 -5" visible="true" id="delhi"></a-box>
+<a-box color="#ffffff" src="#RAJ" width="2" height="2" depth="2"
+         position="-3 2 -5" visible="true" id="rajasthan"></a-box>
+<a-box color="#ffffff" src="#MH" width="2" height="2" depth="2"
+         position="5 2 -5" visible="true" id="mahrastra"></a-box>		
+<a-box color="#ffffff" src="#UP" width="2" height="2" depth="2"
+         position="13 2 -5" visible="true" id="uttarpradesh"></a-box>	 
+  </a-scene>
+  <script>
+  var sky=document.querySelector('#background');
+  var delhi=document.querySelector('#delhi');
+  var rajasthan=document.querySelector('#rajasthan');
+  var mahrastra=document.querySelector('#mahrastra');
+  var uttarpradesh=document.querySelector('#uttarpradesh');
+  var delhiback1=document.querySelector('#d1b');
+  var delhiback2=document.querySelector('#d2b');
+  var delhiback3=document.querySelector('#d3b');
+  var delhiback4=document.querySelector('#d4b');
+  var delhiback5=document.querySelector('#d5b');
+  var delhinext1=document.querySelector('#d1n');
+  var delhinext2=document.querySelector('#d2n');
+  var delhinext3=document.querySelector('#d3n');
+  var delhinext4=document.querySelector('#d4n');
+  var delhinext5=document.querySelector('#d5n');
+  var rback1=document.querySelector('#r1b');
+  var rback2=document.querySelector('#r2b');
+  var rback3=document.querySelector('#r3b');
+  var rback4=document.querySelector('#r4b');
+  var rback5=document.querySelector('#r5b');
+  var rnext1=document.querySelector('#r1n');
+  var rnext2=document.querySelector('#r2n');
+  var rnext3=document.querySelector('#r3n');
+  var rnext4=document.querySelector('#r4n');
+  var rnext5=document.querySelector('#r5n');
+  var mback1=document.querySelector('#m1b');
+  var mback2=document.querySelector('#m2b');
+  var mback3=document.querySelector('#m3b');
+  var mback4=document.querySelector('#m4b');
+  var mback5=document.querySelector('#m5b');
+  var mback6=document.querySelector('#m56');
+  var mnext1=document.querySelector('#m1n');
+  var mnext2=document.querySelector('#m2n');
+  var mnext3=document.querySelector('#m3n');
+  var mnext4=document.querySelector('#m4n');
+  var mnext5=document.querySelector('#m5n');
+  var mnext6=document.querySelector('#m6n');
+  var uback1=document.querySelector('#u1b');
+  var uback2=document.querySelector('#u2b');
+  var uback3=document.querySelector('#u3b');
+  var uback4=document.querySelector('#u4b');
+  var unext1=document.querySelector('#u1n');
+  var unext2=document.querySelector('#u2n');
+  var unext3=document.querySelector('#u3n');
+  var unext4=document.querySelector('#u4n');
+  delhi.addEventListener('mouseenter',function(){
+  sky.setAttribute('src','#delhi1');
+  delhi.setAttribute('visible','false');
+  rajasthan.setAttribute('visible','false');
+  mahrastra.setAttribute('visible','false');
+  uttarpradesh.setAttribute('visible','false');
+  delhiback1.setAttribute('visible','true');
+  delhinext1.setAttribute('visible','true');
+  });
+  
+  rajasthan.addEventListener('mouseenter',function(){
+  sky.setAttribute('src','#RAJ1');
+  delhi.setAttribute('visible','false');
+  rajasthan.setAttribute('visible','false');
+  mahrastra.setAttribute('visible','false');
+  uttarpradesh.setAttribute('visible','false');
+  rback1.setAttribute('visible','true');
+  rnext1.setAttribute('visible','true');
+  });
+  
+   mahrastra.addEventListener('mouseenter',function(){
+  sky.setAttribute('src','#MH1');
+  delhi.setAttribute('visible','false');
+  rajasthan.setAttribute('visible','false');
+  mahrastra.setAttribute('visible','false');
+  uttarpradesh.setAttribute('visible','false');
+  mback1.setAttribute('visible','true');
+  mnext1.setAttribute('visible','true');
+  });
+  
+  uttarpradesh.addEventListener('mouseenter',function(){
+  sky.setAttribute('src','#UP1');
+  delhi.setAttribute('visible','false');
+  rajasthan.setAttribute('visible','false');
+  mahrastra.setAttribute('visible','false');
+  uttarpradesh.setAttribute('visible','false');
+  uback1.setAttribute('visible','true');
+  unext1.setAttribute('visible','true');
+  });
+  
+  delhiback1.addEventListener('mouseenter', function () {
+  sky.setAttribute('src','#main');
+  delhi.setAttribute('visible','true');
+  rajasthan.setAttribute('visible','true');
+  mahrastra.setAttribute('visible','true');
+  uttarpradesh.setAttribute('visible','true');
+  delhiback1.setAttribute('visible','false');
+  delhinext1.setAttribute('visible','false');
+  });
+  delhinext1.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#delhi2");
+	   delhiback1.setAttribute('visible','false');
+	   delhinext1.setAttribute('visible','false');
+	   delhiback2.setAttribute('visible','true');
+	   delhinext2.setAttribute('visible','true');
+	});
+	delhiback2.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#delhi1");
+	   delhiback1.setAttribute('visible','true');
+	   delhinext1.setAttribute('visible','true');
+	   delhiback2.setAttribute('visible','false');
+	   delhinext2.setAttribute('visible','false');
+	});
+delhinext2.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#delhi3");
+	   delhiback2.setAttribute('visible','false');
+	   delhinext2.setAttribute('visible','false');
+	   delhiback3.setAttribute('visible','true');
+	   delhinext3.setAttribute('visible','true');
+	});
+	delhiback3.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#delhi2");
+	   delhiback2.setAttribute('visible','true');
+	   delhinext2.setAttribute('visible','true');
+	   delhiback3.setAttribute('visible','false');
+	   delhinext3.setAttribute('visible','false');
+	});
+delhinext3.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#delhi4");
+	   delhiback3.setAttribute('visible','false');
+	   delhinext3.setAttribute('visible','false');
+	   delhiback4.setAttribute('visible','true');
+	   delhinext4.setAttribute('visible','true');
+	});
+	delhiback4.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#delhi3");
+	   delhiback3.setAttribute('visible','true');
+	   delhinext3.setAttribute('visible','true');
+	   delhiback4.setAttribute('visible','false');
+	   delhinext4.setAttribute('visible','false');
+	});
+delhinext4.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#delhi5");
+	   delhiback4.setAttribute('visible','false');
+	   delhinext4.setAttribute('visible','false');
+	   delhiback5.setAttribute('visible','true');
+	   delhinext5.setAttribute('visible','true');
+	});
+	delhiback5.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#delhi4");
+	   delhiback4.setAttribute('visible','true');
+	   delhinext4.setAttribute('visible','true');
+	   delhiback5.setAttribute('visible','false');
+	   delhinext5.setAttribute('visible','false');
+	});
+	
+	  delhinext5.addEventListener('mouseenter', function () {
+  sky.setAttribute('src','#main');
+  delhi.setAttribute('visible','true');
+  rajasthan.setAttribute('visible','true');
+  mahrastra.setAttribute('visible','true');
+  uttarpradesh.setAttribute('visible','true');
+  delhiback5.setAttribute('visible','false');
+  delhinext5.setAttribute('visible','false');
+  });
+	//rajasthan tourist interaction
+	
+	  rback1.addEventListener('mouseenter', function () {
+  sky.setAttribute('src','#main');
+  delhi.setAttribute('visible','true');
+  rajasthan.setAttribute('visible','true');
+  mahrastra.setAttribute('visible','true');
+  uttarpradesh.setAttribute('visible','true');
+  rback1.setAttribute('visible','false');
+  rnext1.setAttribute('visible','false');
+  });
+	rnext1.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#RAJ2");
+	   rback1.setAttribute('visible','false');
+	   rnext1.setAttribute('visible','false');
+	   rback2.setAttribute('visible','true');
+	   rnext2.setAttribute('visible','true');
+	});
+	rback2.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#RAJ1");
+	   rback1.setAttribute('visible','true');
+	   rnext1.setAttribute('visible','true');
+	   rback2.setAttribute('visible','false');
+	   rnext2.setAttribute('visible','false');
+	});
+	rnext2.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#RAJ3");
+	   rback2.setAttribute('visible','false');
+	   rnext2.setAttribute('visible','false');
+	   rback3.setAttribute('visible','true');
+	   rnext3.setAttribute('visible','true');
+	});
+	rback3.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#RAJ2");
+	   rback2.setAttribute('visible','true');
+	   rnext2.setAttribute('visible','true');
+	   rback3.setAttribute('visible','false');
+	   rnext3.setAttribute('visible','false');
+	});
+	rnext3.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#RAJ4");
+	   rback3.setAttribute('visible','false');
+	   rnext3.setAttribute('visible','false');
+	   rback4.setAttribute('visible','true');
+	   rnext4.setAttribute('visible','true');
+	});
+	rback4.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#RAJ3");
+	   rback3.setAttribute('visible','true');
+	   rnext3.setAttribute('visible','true');
+	   rback4.setAttribute('visible','false');
+	   rnext4.setAttribute('visible','false');
+	});
+	rnext4.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#RAJ5");
+	   rback4.setAttribute('visible','false');
+	   rnext4.setAttribute('visible','false');
+	   rback5.setAttribute('visible','true');
+	   rnext5.setAttribute('visible','true');
+	});
+	rback5.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#RAJ4");
+	   rback4.setAttribute('visible','true');
+	   rnext4.setAttribute('visible','true');
+	   rback5.setAttribute('visible','false');
+	   rnext5.setAttribute('visible','false');
+	});
+	
+  rnext5.addEventListener('mouseenter', function () {
+  sky.setAttribute('src','#main');
+  delhi.setAttribute('visible','true');
+  rajasthan.setAttribute('visible','true');
+  mahrastra.setAttribute('visible','true');
+  uttarpradesh.setAttribute('visible','true');
+  rback5.setAttribute('visible','false');
+  rnext5.setAttribute('visible','false');
+  });
+	
+	//mahrastra tourist
+	  mback1.addEventListener('mouseenter', function () {
+  sky.setAttribute('src','#main');
+  delhi.setAttribute('visible','true');
+  rajasthan.setAttribute('visible','true');
+  mahrastra.setAttribute('visible','true');
+  uttarpradesh.setAttribute('visible','true');
+  mback1.setAttribute('visible','false');
+  mnext1.setAttribute('visible','false');
+  });
+	mnext1.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#MH2");
+	   mback1.setAttribute('visible','false');
+	   mnext1.setAttribute('visible','false');
+	   mback2.setAttribute('visible','true');
+	   mnext2.setAttribute('visible','true');
+	});
+	mback2.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#MH1");
+	   mback1.setAttribute('visible','true');
+	   mnext1.setAttribute('visible','true');
+	   mback2.setAttribute('visible','false');
+	   mnext2.setAttribute('visible','false');
+	});
+	mnext2.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#MH3");
+	   mback2.setAttribute('visible','false');
+	   mnext2.setAttribute('visible','false');
+	   mback3.setAttribute('visible','true');
+	   mnext3.setAttribute('visible','true');
+	});
+	mback3.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#MH2");
+	   mback2.setAttribute('visible','true');
+	   mnext2.setAttribute('visible','true');
+	   mback3.setAttribute('visible','false');
+	   mnext3.setAttribute('visible','false');
+	});
+	mnext3.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#MH4");
+	   mback3.setAttribute('visible','false');
+	   mnext3.setAttribute('visible','false');
+	   mback4.setAttribute('visible','true');
+	   mnext4.setAttribute('visible','true');
+	});
+	mback4.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#MH3");
+	   mback3.setAttribute('visible','true');
+	   mnext3.setAttribute('visible','true');
+	   mback4.setAttribute('visible','false');
+	   mnext4.setAttribute('visible','false');
+	});
+	mnext4.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#MH5");
+	   mback4.setAttribute('visible','false');
+	   mnext4.setAttribute('visible','false');
+	   mback5.setAttribute('visible','true');
+	   mnext5.setAttribute('visible','true');
+	});
+	mback5.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#MH4");
+	   mback4.setAttribute('visible','true');
+	   mnext4.setAttribute('visible','true');
+	   mback5.setAttribute('visible','false');
+	   mnext5.setAttribute('visible','false');
+	});
+	
+   mnext5.addEventListener('mouseenter', function () {
+  sky.setAttribute('src','#main');
+  delhi.setAttribute('visible','true');
+  rajasthan.setAttribute('visible','true');
+  mahrastra.setAttribute('visible','true');
+  uttarpradesh.setAttribute('visible','true');
+  mback5.setAttribute('visible','false');
+  mnext5.setAttribute('visible','false');
+  });
+	
+	//uttar pradesh
+	  uback1.addEventListener('mouseenter', function () {
+  sky.setAttribute('src','#main');
+  delhi.setAttribute('visible','true');
+  rajasthan.setAttribute('visible','true');
+  mahrastra.setAttribute('visible','true');
+  uttarpradesh.setAttribute('visible','true');
+  uback1.setAttribute('visible','false');
+  unext1.setAttribute('visible','false');
+  });
+	unext1.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#UP2");
+	   uback1.setAttribute('visible','false');
+	   unext1.setAttribute('visible','false');
+	   uback2.setAttribute('visible','true');
+	   unext2.setAttribute('visible','true');
+	});
+	uback2.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#UP1");
+	   uback1.setAttribute('visible','true');
+	   unext1.setAttribute('visible','true');
+	   uback2.setAttribute('visible','false');
+	   unext2.setAttribute('visible','false');
+	});
+	unext2.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#UP3");
+	   uback2.setAttribute('visible','false');
+	   unext2.setAttribute('visible','false');
+	   uback3.setAttribute('visible','true');
+	   unext3.setAttribute('visible','true');
+	});
+	uback3.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#UP2");
+	   uback2.setAttribute('visible','true');
+	   unext2.setAttribute('visible','true');
+	   uback3.setAttribute('visible','false');
+	   unext3.setAttribute('visible','false');
+	});
+	unext3.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#UP4");
+	   Uback3.setAttribute('visible','false');
+	   Unext3.setAttribute('visible','false');
+	   Uback4.setAttribute('visible','true');
+	   Unext4.setAttribute('visible','true');
+	});
+	Uback4.addEventListener('mouseenter', function () {
+	   sky.setAttribute('src',"#UP3");
+	   Uback3.setAttribute('visible','true');
+	   Unext3.setAttribute('visible','true');
+	   Uback4.setAttribute('visible','false');
+	   Unext4.setAttribute('visible','false');
+	});
+	
+  unext4.addEventListener('mouseenter', function () {
+  sky.setAttribute('src','#main');
+  delhi.setAttribute('visible','true');
+  rajasthan.setAttribute('visible','true');
+  mahrastra.setAttribute('visible','true');
+  uttarpradesh.setAttribute('visible','true');
+  uback4.setAttribute('visible','false');
+  unext4.setAttribute('visible','false');
+  });
+	
+  </script>
+  </body>
+</html>
